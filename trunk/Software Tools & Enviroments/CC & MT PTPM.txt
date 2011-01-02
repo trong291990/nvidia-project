@@ -1,0 +1,12 @@
+﻿thi 90' - không sử dụng tài liệu
+
+mô tả hệ thống (cac bieu mau quy dinh + quy dinh).
+1. Thiết kế CSDL (PMD)
+2.XD màn hình dạng winform
+	- mô tả chi tiết màn hình, giải thuật xử lý (Mã giả thì tốt hơn).
+		VD: man hinh co mot button gi do, minh se viet ma gia cho button do.
+3. XD màn hình dạng webform
+	- thiết kế giao diện bằng code HTML (ASP.NET)
+	vd: thẻ nhập họ tên
+	HTML: <input type="text"...../>
+	ASP.NET: <asp:Textbox....../>
