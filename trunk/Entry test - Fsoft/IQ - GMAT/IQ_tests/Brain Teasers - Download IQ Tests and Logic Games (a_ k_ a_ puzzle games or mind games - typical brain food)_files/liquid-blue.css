@@ -1,0 +1,474 @@
+BODY {
+	BACKGROUND: #003366; COLOR: white; HEIGHT: 90%
+}
+#menu {
+	BORDER-RIGHT: red 0px solid; BORDER-TOP: red 0px solid; BORDER-LEFT: red 0px solid; BORDER-BOTTOM: red 0px solid
+}
+#title {
+	BORDER-RIGHT: red 0px solid; BORDER-TOP: red 0px solid; BORDER-LEFT: red 0px solid; BORDER-BOTTOM: red 0px solid
+}
+#main-all {
+	BORDER-RIGHT: red 0px solid; BORDER-TOP: red 0px solid; BORDER-LEFT: red 0px solid; BORDER-BOTTOM: red 0px solid
+}
+#stredtop {
+	BORDER-RIGHT: red 0px solid; BORDER-TOP: red 0px solid; BORDER-LEFT: red 0px solid; BORDER-BOTTOM: red 0px solid
+}
+#main {
+	BORDER-RIGHT: red 0px solid; BORDER-TOP: red 0px solid; BORDER-LEFT: red 0px solid; BORDER-BOTTOM: red 0px solid
+}
+#right {
+	BORDER-RIGHT: red 0px solid; BORDER-TOP: red 0px solid; BORDER-LEFT: red 0px solid; BORDER-BOTTOM: red 0px solid
+}
+#right1 {
+	BORDER-RIGHT: red 0px solid; BORDER-TOP: red 0px solid; BORDER-LEFT: red 0px solid; BORDER-BOTTOM: red 0px solid
+}
+.riddles {
+	BORDER-RIGHT: red 0px solid; BORDER-TOP: red 0px solid; BORDER-LEFT: red 0px solid; BORDER-BOTTOM: red 0px solid
+}
+.form-left {
+	BORDER-RIGHT: red 0px solid; BORDER-TOP: red 0px solid; BORDER-LEFT: red 0px solid; BORDER-BOTTOM: red 0px solid
+}
+.form-right {
+	BORDER-RIGHT: red 0px solid; BORDER-TOP: red 0px solid; BORDER-LEFT: red 0px solid; BORDER-BOTTOM: red 0px solid
+}
+.form-email {
+	BORDER-RIGHT: red 0px solid; BORDER-TOP: red 0px solid; BORDER-LEFT: red 0px solid; BORDER-BOTTOM: red 0px solid
+}
+.optika {
+	BORDER-RIGHT: red 0px solid; BORDER-TOP: red 0px solid; BORDER-LEFT: red 0px solid; BORDER-BOTTOM: red 0px solid
+}
+.optika-current {
+	BORDER-RIGHT: red 0px solid; BORDER-TOP: red 0px solid; BORDER-LEFT: red 0px solid; BORDER-BOTTOM: red 0px solid
+}
+#page {
+	BORDER-RIGHT: red 0px solid; BORDER-TOP: red 0px solid; BORDER-LEFT: red 0px solid; BORDER-BOTTOM: red 0px solid
+}
+#menu {
+	BACKGROUND: url(images/hlava.gif) no-repeat; LEFT: 0px; WIDTH: 11em; POSITION: absolute; TOP: 0px
+}
+#title {
+	FONT-SIZE: 100%; RIGHT: 0px; LEFT: 11em; FONT-FAMILY: times, serif; POSITION: absolute; TOP: 0px; HEIGHT: 75px
+}
+#main-all {
+	FONT-SIZE: 100%; RIGHT: 0px; BACKGROUND: #577098; LEFT: 11em; FONT-FAMILY: Arial, Helvetica, sans-serif; POSITION: absolute; TOP: 75px; TEXT-ALIGN: justify
+}
+#stredtop {
+	BACKGROUND: url(images/stredtop.gif) no-repeat; HEIGHT: 1.5em
+}
+#main {
+	PADDING-RIGHT: 1.5em; PADDING-LEFT: 1.5em; PADDING-BOTTOM: 1em; PADDING-TOP: 0em
+}
+#right1 {
+	FLOAT: right; MARGIN-BOTTOM: 1em; MARGIN-LEFT: 1em; WIDTH: 170px
+}
+#right {
+	PADDING-LEFT: 0em; FLOAT: right; PADDING-BOTTOM: 0.5em; WIDTH: 22%; voice-family: inherit
+}
+UNKNOWN {
+	WIDTH: 30%
+}
+.flag {
+	FLOAT: right; MARGIN: 3px 3px -5px 1px
+}
+.date {
+	DISPLAY: none; RIGHT: 5px; POSITION: absolute; TOP: 50px
+}
+.replace {
+	RIGHT: 30%; FLOAT: left; VERTICAL-ALIGN: bottom; WIDTH: 410px; POSITION: absolute; HEIGHT: 75px
+}
+.replace-en {
+	RIGHT: 30%; FLOAT: left; VERTICAL-ALIGN: bottom; WIDTH: 410px; POSITION: absolute; HEIGHT: 75px
+}
+.replace H1 {
+	MARGIN-TOP: 0px; FONT-WEIGHT: normal; FONT-SIZE: 300%; COLOR: white; LETTER-SPACING: 3px
+}
+.replace-en H1 {
+	MARGIN-TOP: 0px; FONT-WEIGHT: normal; FONT-SIZE: 300%; COLOR: white; LETTER-SPACING: 3px
+}
+.replace A:link {
+	COLOR: white
+}
+.replace-en A:link {
+	COLOR: white
+}
+.replace A:visited {
+	COLOR: white
+}
+.replace-en A:visited {
+	COLOR: white
+}
+.replace SPAN {
+	WIDTH: 410px; POSITION: absolute; HEIGHT: 100%
+}
+.replace-en SPAN {
+	WIDTH: 410px; POSITION: absolute; HEIGHT: 100%
+}
+.replace SPAN {
+	BACKGROUND: url(images/lamohlavy.jpg) no-repeat
+}
+.replace-en SPAN {
+	BACKGROUND: url(images/brainteasers.jpg) no-repeat
+}
+.current {
+	BACKGROUND: #cdf
+}
+.section-logo {
+	MARGIN-TOP: 1.5em; FLOAT: left; MARGIN-BOTTOM: 1em; VERTICAL-ALIGN: middle
+}
+.center {
+	MARGIN: 0px 10px 20px; TEXT-ALIGN: center
+}
+.left {
+	FLOAT: left; MARGIN: 0px 10px 20px
+}
+.right {
+	FLOAT: right
+}
+H1 {
+	MARGIN-TOP: 0em; FONT-WEIGHT: bolder; FONT-SIZE: 200%; COLOR: #87cefa; PADDING-TOP: 0.3em; TEXT-ALIGN: center
+}
+H2 {
+	MARGIN-TOP: 0em; FONT-SIZE: 110%; MARGIN-BOTTOM: 0em; FONT-VARIANT: small-caps
+}
+#main LI {
+	MARGIN-TOP: 7px; MARGIN-BOTTOM: 0px
+}
+P {
+	MARGIN-TOP: 0px; page-break-inside: avoid
+}
+A:link {
+	COLOR: #aac9ea
+}
+A:visited {
+	COLOR: maroon
+}
+A:active {
+	COLOR: #ee0000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: navy; TEXT-DECORATION: underline
+}
+A.uvod {
+	FONT-WEIGHT: bold
+}
+A.cssbtn {
+	FONT-WEIGHT: bold
+}
+#stredtop A {
+	PADDING-RIGHT: 0.6em; PADDING-LEFT: 0.6em; FONT-WEIGHT: bold; FLOAT: right
+}
+.riddles {
+	FLOAT: left; MARGIN: 0.5em 0.5em 0.5em 0em; WIDTH: 24%; TEXT-ALIGN: center; voice-family: inherit; min-width: 120px
+}
+UNKNOWN {
+	WIDTH: 31%
+}
+.riddles A {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%
+}
+.riddles-links {
+	TEXT-ALIGN: center
+}
+A.cssbtn {
+	CLEAR: both; BORDER-RIGHT: black 0.1em solid; PADDING-RIGHT: 0.2em; BORDER-TOP: black 0.1em solid; DISPLAY: block; PADDING-LEFT: 0.2em; FONT-WEIGHT: bold; FONT-SIZE: 0.9em; BACKGROUND: #fc6; PADDING-BOTTOM: 0.2em; MARGIN: 1em 1em 1em 15px; BORDER-LEFT: black 0.1em solid; WIDTH: 75%; COLOR: black; PADDING-TOP: 0.2em; BORDER-BOTTOM: black 0.1em solid; WHITE-SPACE: nowrap; POSITION: absolute; TOP: 31em; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+unknown {
+	WIDTH: auto; min-width: 8.4em
+}
+A.cssbtn STRONG {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em; FONT-WEIGHT: bold; BACKGROUND: #fff; PADDING-BOTTOM: 0.1em; COLOR: #0c479d; MARGIN-RIGHT: 0.2em; PADDING-TOP: 0.1em; FONT-STYLE: normal
+}
+A.cssbtn:hover {
+	BACKGROUND: black; COLOR: white; TEXT-DECORATION: none
+}
+A.cssbtn:hover STRONG {
+	BACKGROUND: #ccc; COLOR: black; TEXT-DECORATION: none
+}
+#main-all A IMG {
+	FILTER: alpha(opacity=50, style=3); moz-opacity: 0.5; khtml-opacity: 0.5
+}
+#main-all A:hover IMG {
+	FILTER: alpha(opacity=100); moz-opacity: 1; khtml-opacity: 1
+}
+A.blog {
+	DISPLAY: none
+}
+A.xhtml {
+	DISPLAY: none
+}
+.optika {
+	FLOAT: left; WIDTH: 10.5%; TEXT-ALIGN: center; voice-family: inherit
+}
+.optika-current {
+	FLOAT: left; WIDTH: 10.5%; TEXT-ALIGN: center; voice-family: inherit
+}
+UNKNOWN {
+	WIDTH: 14%
+}
+.motto {
+	BORDER-RIGHT: #264975 2px solid; PADDING-RIGHT: 2px; BORDER-TOP: #386daf 2px solid; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 110%; BACKGROUND: #2d588c; PADDING-BOTTOM: 2px; BORDER-LEFT: #386daf 2px solid; COLOR: white; PADDING-TOP: 2px; BORDER-BOTTOM: #264975 2px solid; FONT-FAMILY: "Times New Roman", serif; TEXT-ALIGN: center; FONT-VARIANT: small-caps
+}
+.bonmot {
+	BORDER-RIGHT: #264975 2px solid; PADDING-RIGHT: 8px; BORDER-TOP: #386daf 2px solid; PADDING-LEFT: 8px; FONT-SIZE: 90%; BACKGROUND: #31639c; PADDING-BOTTOM: 8px; BORDER-LEFT: #386daf 2px solid; COLOR: white; PADDING-TOP: 8px; BORDER-BOTTOM: #264975 2px solid; FONT-FAMILY: Verdana, Helvetica, sans-serif; TEXT-ALIGN: center
+}
+.bonmot-heading {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; MARGIN-BOTTOM: 0.2em
+}
+.bonmot-author {
+	MARGIN-TOP: 0.5em; FONT-SIZE: 100%; FONT-STYLE: italic
+}
+.box {
+	FLOAT: left; MARGIN-BOTTOM: 2em; MARGIN-LEFT: 1em; WIDTH: 22%; TEXT-ALIGN: center; voice-family: inherit
+}
+UNKNOWN {
+	WIDTH: 30%
+}
+.half {
+	WIDTH: 34%; voice-family: inherit
+}
+UNKNOWN {
+	WIDTH: 44%
+}
+.form-email {
+	MARGIN-LEFT: auto; WIDTH: 420px; MARGIN-RIGHT: auto; PADDING-TOP: 20px
+}
+.form-left {
+	FLOAT: left; MARGIN-BOTTOM: 300px; WIDTH: 5.5em; MARGIN-RIGHT: 0.5em; TEXT-ALIGN: right
+}
+.form-right {
+	TEXT-ALIGN: left
+}
+TEXTAREA {
+	BORDER-RIGHT: navy 1px solid; BORDER-TOP: navy 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: bold; BACKGROUND: #aac9ea; BORDER-LEFT: navy 1px solid; COLOR: navy; BORDER-BOTTOM: navy 1px solid; LETTER-SPACING: 1px; max-width: 300px
+}
+TEXTAREA {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; FONT-FAMILY: "Times New Roman", serif
+}
+INPUT.button {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-WEIGHT: bold; BACKGROUND: navy; FILTER: alpha(style=2); PADDING-BOTTOM: 4px; CURSOR: hand; COLOR: white; PADDING-TOP: 4px; moz-opacity: 0.7; khtml-opacity: 0.7
+}
+INPUT.btnhov {
+	COLOR: navy; BACKGROUND-COLOR: white
+}
+.navcontainer {
+	BORDER-RIGHT: #000053 3px solid; BORDER-TOP: #577098 3px solid; MARGIN-TOP: 190px; BACKGROUND: #000066; MARGIN-LEFT: 15px; BORDER-LEFT: #577098 3px solid; WIDTH: 6.2em; BORDER-BOTTOM: #000053 3px solid
+}
+.navcontainer UL {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; BORDER-RIGHT-WIDTH: 0px
+}
+.navcontainer LI A {
+	DISPLAY: block; PADDING-LEFT: 2.7em; FONT-WEIGHT: bold; FONT-SIZE: 80%; PADDING-BOTTOM: 2px; WIDTH: 100%; COLOR: white; PADDING-TOP: 2px; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 1.5em; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+UNKNOWN {
+	WIDTH: auto
+}
+.navcontainer LI {
+	LINE-HEIGHT: 20px
+}
+.navcontainer .current {
+	BACKGROUND-COLOR: #6699ff; TEXT-DECORATION: none
+}
+.navcontainer LI A:visited {
+	COLOR: white; TEXT-DECORATION: none
+}
+.navcontainer LI A:hover {
+	COLOR: navy; BACKGROUND-COLOR: #6699ff; TEXT-DECORATION: none
+}
+.navcontainer LI A:active {
+	COLOR: navy; BACKGROUND-COLOR: #6699ff; TEXT-DECORATION: none
+}
+.navcontainer LI A:hover {
+	BACKGROUND-POSITION: 7px 50%; BACKGROUND-REPEAT: no-repeat
+}
+.navcontainer LI A:active {
+	BACKGROUND-POSITION: 7px 50%; BACKGROUND-REPEAT: no-repeat
+}
+.navcontainer LI {
+	BACKGROUND-POSITION: 7px 50%; BACKGROUND-REPEAT: no-repeat
+}
+#home {
+	BACKGROUND-POSITION: 7px 40%; BORDER-BOTTOM: silver 1px solid
+}
+#illusions {
+	BACKGROUND-POSITION: 7px 40%; BORDER-BOTTOM: silver 1px solid
+}
+#links {
+	BACKGROUND-POSITION: 7px 40%; BORDER-BOTTOM: silver 1px solid
+}
+#download {
+	BACKGROUND-POSITION: 7px 40%; BORDER-BOTTOM: silver 1px solid
+}
+#lawyers {
+	BACKGROUND-POSITION: 7px 40%; BORDER-BOTTOM: silver 1px solid
+}
+#home {
+	BACKGROUND-IMAGE: url(menu/menuhome.gif)
+}
+#home A:hover {
+	BACKGROUND-IMAGE: url(menu/menuhome.gif)
+}
+#home A:active {
+	BACKGROUND-IMAGE: url(menu/menuhome.gif)
+}
+#lawyers {
+	BACKGROUND-IMAGE: url(menu/menulawyers.gif)
+}
+#lawyers A:hover {
+	BACKGROUND-IMAGE: url(menu/menulawyers.gif)
+}
+#lawyers A:active {
+	BACKGROUND-IMAGE: url(menu/menulawyers.gif)
+}
+#riddles {
+	BACKGROUND-IMAGE: url(menu/menustar.gif)
+}
+#riddles A:hover {
+	BACKGROUND-IMAGE: url(menu/menustar.gif)
+}
+#riddles A:active {
+	BACKGROUND-IMAGE: url(menu/menustar.gif)
+}
+#geometry {
+	BACKGROUND-IMAGE: url(menu/menucube.gif)
+}
+#geometry A:hover {
+	BACKGROUND-IMAGE: url(menu/menucube.gif)
+}
+#geometry A:active {
+	BACKGROUND-IMAGE: url(menu/menucube.gif)
+}
+#matchsticks {
+	BACKGROUND-IMAGE: url(menu/menufire.gif)
+}
+#matchsticks A:hover {
+	BACKGROUND-IMAGE: url(menu/menufire.gif)
+}
+#matchsticks A:active {
+	BACKGROUND-IMAGE: url(menu/menufire.gif)
+}
+#algebra {
+	BACKGROUND-IMAGE: url(menu/menuA.gif)
+}
+#algebra A:hover {
+	BACKGROUND-IMAGE: url(menu/menuA.gif)
+}
+#algebra A:active {
+	BACKGROUND-IMAGE: url(menu/menuA.gif)
+}
+#paradoxes {
+	BACKGROUND-IMAGE: url(menu/menuparadox.gif)
+}
+#paradoxes A:hover {
+	BACKGROUND-IMAGE: url(menu/menuparadox.gif)
+}
+#paradoxes A:active {
+	BACKGROUND-IMAGE: url(menu/menuparadox.gif)
+}
+#illusions {
+	BACKGROUND-IMAGE: url(menu/menukalich.gif)
+}
+#illusions A:hover {
+	BACKGROUND-IMAGE: url(menu/menukalich.gif)
+}
+#illusions A:active {
+	BACKGROUND-IMAGE: url(menu/menukalich.gif)
+}
+#links {
+	BACKGROUND-IMAGE: url(menu/menuwww.gif)
+}
+#links A:hover {
+	BACKGROUND-IMAGE: url(menu/menuwww.gif)
+}
+#links A:active {
+	BACKGROUND-IMAGE: url(menu/menuwww.gif)
+}
+#download {
+	BACKGROUND-IMAGE: url(menu/menudown.gif)
+}
+#download A:hover {
+	BACKGROUND-IMAGE: url(menu/menudown.gif)
+}
+#download A:active {
+	BACKGROUND-IMAGE: url(menu/menudown.gif)
+}
+#email {
+	BACKGROUND-IMAGE: url(menu/menumail.gif)
+}
+#email A:hover {
+	BACKGROUND-IMAGE: url(menu/menumail.gif)
+}
+#email A:active {
+	BACKGROUND-IMAGE: url(menu/menumail.gif)
+}
+.hlava {
+	DISPLAY: none
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+A:hover IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.half {
+	MARGIN-BOTTOM: -15px
+}
+.links {
+	TEXT-INDENT: 80px
+}
+.search {
+	CLEAR: right; FLOAT: right; MARGIN: 7px 4px 4px
+}
+.searchtext {
+	FONT-WEIGHT: bold; BACKGROUND: #aac9ea; COLOR: navy
+}
+.adsense {
+	POSITION: relative; TOP: 2em; TEXT-ALIGN: center
+}
+.adsense-pr {
+	POSITION: relative; TOP: 0em; TEXT-ALIGN: center
+}
+.pdfLink {
+	PADDING-RIGHT: 17px; FONT-WEIGHT: bold
+}
+.zipLink {
+	PADDING-RIGHT: 17px; FONT-WEIGHT: bold
+}
+.docLink {
+	PADDING-RIGHT: 17px; FONT-WEIGHT: bold
+}
+.txtLink {
+	PADDING-RIGHT: 17px; FONT-WEIGHT: bold
+}
+.pdfLink {
+	BACKGROUND: url(images/pdf.gif) no-repeat right top
+}
+.zipLink {
+	BACKGROUND: url(images/zip.gif) no-repeat right top
+}
+.docLink {
+	BACKGROUND: url(images/doc.gif) no-repeat right top
+}
+.txtLink {
+	BACKGROUND: url(images/txt.gif) no-repeat right top
+}
+A.skip {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em; Z-INDEX: -1; BORDER-BOTTOM-WIDTH: 0px! important; PADDING-BOTTOM: 0.2em; MARGIN-LEFT: -180px; PADDING-TOP: 0.2em; POSITION: absolute; TOP: 40px
+}
+A.skip:unknown {
+	Z-INDEX: 2; BACKGROUND: #fff; MARGIN-LEFT: 0px
+}
+A.skip:active {
+	Z-INDEX: 2; BACKGROUND: #fff; MARGIN-LEFT: 0px
+}
+#lawyer {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.5em; TEXT-DECORATION: underline
+}
+A#lawyer:visited {
+	TEXT-DECORATION: underline
+}
+A#lawyer:active {
+	COLOR: #ee0000; TEXT-DECORATION: underline
+}
+A#lawyer:hover {
+	COLOR: navy; TEXT-DECORATION: underline
+}

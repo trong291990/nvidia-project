@@ -1,0 +1,67 @@
+@page  {margin: 2.5cm; }
+BODY {
+	BACKGROUND: white; COLOR: black
+}
+H1 {
+	BACKGROUND: white; COLOR: black
+}
+DIV {
+	BACKGROUND: white; COLOR: black
+}
+BODY {
+	FONT: 12pt/1 "Times CE", Times, "Times New Roman", serif
+}
+DIV {
+	FONT: 12pt/1 "Times CE", Times, "Times New Roman", serif
+}
+PRE.poem {
+	FONT: 12pt/1 "Times CE", Times, "Times New Roman", serif
+}
+H2 {
+	DISPLAY: block
+}
+#menu {
+	DISPLAY: none
+}
+#title {
+	DISPLAY: none
+}
+#stredtop {
+	DISPLAY: none
+}
+#right {
+	DISPLAY: none
+}
+#right1 {
+	DISPLAY: none
+}
+.riddles-links {
+	DISPLAY: none
+}
+.section-logo {
+	DISPLAY: none
+}
+.optika {
+	DISPLAY: none
+}
+.optika-current {
+	DISPLAY: none
+}
+#main {
+	PADDING-RIGHT: 1em; PADDING-LEFT: 1em; PADDING-BOTTOM: 1em; PADDING-TOP: 1em
+}
+#main-all {
+	MARGIN-TOP: -94px; FLOAT: none! important; MARGIN-BOTTOM: 0em; MARGIN-LEFT: -11em; WIDTH: 100%
+}
+UNKNOWN {
+	POSITION: relative
+}
+A:link {
+	FONT-WEIGHT: bold; BACKGROUND: white; COLOR: black; TEXT-DECORATION: underline
+}
+A:visited {
+	FONT-WEIGHT: bold; BACKGROUND: white; COLOR: black; TEXT-DECORATION: underline
+}
+A:unknown {
+	FONT-SIZE: 90%; content: " (" attr(href) ") "
+}
