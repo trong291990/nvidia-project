@@ -1,0 +1,81 @@
+BODY {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: black
+}
+.statistics {
+	DISPLAY: none
+}
+.invisible {
+	CLEAR: both; VISIBILITY: hidden
+}
+.clear-left {
+	CLEAR: left
+}
+.clear-right {
+	CLEAR: right
+}
+.clear-both {
+	CLEAR: both
+}
+.left {
+	TEXT-ALIGN: left
+}
+.center {
+	TEXT-ALIGN: center
+}
+.right {
+	TEXT-ALIGN: right
+}
+STRONG {
+	FONT-WEIGHT: bold; FONT-STYLE: italic
+}
+HR {
+	WIDTH: 70%; COLOR: navy; HEIGHT: 3px; TEXT-ALIGN: center
+}
+DIV.hr {
+	BACKGROUND: url(images/alineOK.gif) no-repeat center 50%; HEIGHT: 45px
+}
+DIV.hr HR {
+	DISPLAY: none
+}
+SUP {
+	FONT-SIZE: 80%
+}
+.sup {
+	FONT-SIZE: 60%; VERTICAL-ALIGN: super
+}
+PRE.poem {
+	FONT-SIZE: 95%; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: center
+}
+.chatboardtext {
+	FONT-SIZE: 80%; COLOR: white; FONT-FAMILY: tahoma, arial, sans-serif
+}
+.chatboardinput {
+	FONT-SIZE: 80%; COLOR: white; FONT-FAMILY: tahoma, arial, sans-serif
+}
+.chatboardnadpis {
+	FONT-SIZE: 80%; COLOR: white; FONT-FAMILY: tahoma, arial, sans-serif
+}
+.chatboard {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.chatboardinput {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; BORDER-LEFT: black 1px solid; COLOR: navy; BORDER-BOTTOM: black 1px solid
+}
+.chatboardnadpis {
+	FONT-WEIGHT: bold; BORDER-BOTTOM: #658aa7 1px dotted
+}
+.notice {
+	MARGIN-TOP: 1em; MARGIN-BOTTOM: 1em; TEXT-ALIGN: center
+}
+.replace SPAN {
+	CURSOR: hand
+}
+.replace-en SPAN {
+	CURSOR: hand
+}
+INPUT.button {
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#ffffffff',EndColorStr='#ffaaaaff')
+}
+.about {
+	CURSOR: help; BORDER-BOTTOM: 1px dashed
+}
