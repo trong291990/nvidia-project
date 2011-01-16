@@ -1,0 +1,83 @@
+Cau 1: Dap an D
+Tan so dong ho thuong duoc tinh bang so lan dao dong(xung) tren 1 giay hay so chu ky tren 1 giay. 
+No bieu thi cho toc do dong ho ben trong may tinh. No la don vi do thoi gian trong CPU, 
+khoang cach ngat la khoang thoi gian giua 2 lan ngat thoi gian ma CPU quy dinh, no duoc tinh 
+theo don vi xung dong ho. Chinh vi vay, neu tan so dong ho tang gap doi, thi khoang cach ngat 
+giam mot nua va toc do xu ly thoi gian thuc nhanh hon ( khong phai gap doi ).
+
+Cau 2: Dap an C
+He dieu hanh hieu theo nghia rong gom co 3 phan la chuong trinh dieu khien (Control program),
+bo xu ly ngon ngu (language processors) va cac chuong trinh dich vu (service program)
+
+( tham khao o trang 100 tap 1 FE tieng Viet ban mem )
+
+Cau 3: Dap an C
+Mot tien trinh gom co 3 trang thai la:
+- Wait status: Trang thai cho doi - la khi tien trinh dang cho doi tuong tac vao ra (I/O) hoac cho doi du lieu tu CPU de thuc hien cong viec
+- Executable status(Ready status): Trang thai san sang thuc hien - la khi tien trinh da co day 
+du tai nguyen va co the chay, nhung chua duoc thuc hien do CPU dang phuc vu mot tien trinh 
+khac 
+- Execution status: Trang thai dang thuc hien - khi tien trinh dang duoc CPU phuc vu
+
+Cau 4: Dap an D
+Ngat trong la ngat do ban than chuong trinh gay ra gom co ngat chuong trinh va ngat SVC
++ ngat chuong trinh: chuong trinh thuc hien loi, nhu chia cho 0...
++ ngat SVC (supervisor call): can su can thiep cua HDH nhu can them bo nho cho CPU cap phat...
+Ngat ngoai la ngat khong do ban than chuong trinh gay ra ma do tac dong ben ngoai
++ ngat vao/ra: khi cho doi tuong tac vao/ra nhu cho du lieu nhap tu nguoi dung...
++ ngat thoi gian: do co che CPU de xu ly da tien trinh, moi tien trinh chi duoc phep chay 
+trong 1 khoang thoi gian quy dinh, roi phai nhuong cho tien trinh khac
++ ngat kiem tra thiet bi: do xuat hien su co bat thuong trong he thong nhu trong bo phan 
+cung cap dien, trong bo nho chinh... khi do CPU se thuc hien 1 ngat de tam dung 
+chuong trinh dang chay.
++ ngat tu ban dieu khien: ngat do chu dinh cua nguoi dieu khien muon dung chuong trinh 
+
+Cau 5: Dap an  E
+- Overhead: La luong chi phi phai tra trong qua trinh xu ly, o day co the hieu la 
+thoi gian can van hanh
+- Response time: La thoi gian tinh tu luc bat dau thuc hien toi khi thuc hien xong 
+chuc nang(xu ly don) 
+- Turn around time: La thoi gian tinh tu luc bat dau thuc hien lo xu ly (mot luong xu ly)
+ cho toi khi thuc hien xong 
+- Idling time: La thoi gian roi cua may tinh, la luong thoi gian may tinh khong lam gi ca.
+- Thong luong: khoi luong cong viec xu ly trong mot don vi thoi gian (thuong tinh theo s)
+
+Cau 6: Dap an C
+- Lam gon: La qua trinh chuyen doi cac vung nho trong bo nho sao cho vung nho roi thu duoc 
+toi uu nhat
+- Trao doi: La qua trinh chuyen doi giua bo nho chinh va bo nho ngoai 
+- Phan manh: La hien tuong xuat hien cac vung nho nho do viec lap lai cap phat va giai phong
+khong gian nho, cac vung nho nho nay khong du de cap phat cho 1 tien trinh
+- Phan trang: La co che chia nho bo nho chinh thanh cac trang theo phuong thuc quan ly theo 
+bo nho ao (la du lieu cua bo nho chinh duoc luu ra bo nho phu)
+
+Cau 7: Dap an A
+- Tep tam thoi (temporary file): Dung de luu cac du lieu mang tinh chat tam thoi
+- Tep nen (compressed file): la tep ma du lieu da duoc nen lai cho kich thuoc nho hon
+- Tep chia se(sharing file): la tep duoc chia se cho nhieu nguoi dung, thuong la qua network
+- Tep vinh cuu (permanent file): la tep trai nguoc voi tep tam thoi, la tep su dung lau dai
+- Tep he thong(system file): la tep duoc danh rieng cho cac cong viec cua he dieu hanh 
+
+Cau 8: Dap an C
+- Partition (Phan hoach): La hien tuong phan chia mot doi tuong lon thanh cac doi tuong 
+nho hon (co the khong bang nhau)
+- Swapping (Trao doi): La hien tuong hoan doi vi tri giua 2 doi tuong
+- Deadlock (Khoa cung): La hien tuong 2 tien trinh hoac nhieu tien trinh doi hoi cac tai 
+nguyen lan nhau, va khong the thuc hien duoc theo logic.
+ ( A giu a va doi b de thuc hien tiep, B giu b va doi a de thuc hien tiep -> deadlock)
+- Overlay (Tran): La hien tuong vuot qua gioi han cho phep, vi du nhu tran bo nho
+- Paging (Phan trang): La co che chia nho thanh cac phan don vi nho nhu nhau
+duoc danh dau thu tu.
+
+Cau 9: Dap an D
+LRU (Least Requently Use) nghia la ti le dung it nhat, hay la khong duoc tham chieu 
+lau nhat thi bi day ra
+Con co mot so co che khac nhu:
++ FIFO: vao truoc ra truoc (ung voi C)
++ LIFO: vao sau ra truoc (ung voi B)
++ Aging: Phan chia thu tu uu tien (ung voi A)
+
+(Doc them o http://en.wikipedia.org/wiki/Page_replacement_algorithm)
+
+Cau 10: Dap an C
+Unix la he dieu hanh da nguoi dung(multi-user) va da nhiem(multitasking)

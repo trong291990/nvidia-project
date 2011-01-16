@@ -1,0 +1,74 @@
+2007/09/10
+
+Cau 1: 
+11001011 dich chuyen so hoc sang phai 2 bit (them phan bit dau vao) -> 11110010
+dich chuyen logic sang trai 2 bit -> 11001000
+
+Dap an: A
+
+Cau 2: 
+   01011000 
++ 10010100 
+= 11101100
+se la phan bu 2 cua tong 
+-> gia tri cua tong
+= ~(11101100 - 1) = ~(11101011) = 00010100 = +20
+
+Dap an: D
+
+Cau 3: nho khi co thuc hien 1 + 1 = 10 (khi do se co nho)
+Ta thay A la khong co cong 1 + 1 trong bieu thuc
+-> Dap an: A
+
+Cau 4: Cau 27 FE Handbook
++ Thanh ghi da nang: luu giu du lieu tam thoi 
++ Thanh ghi yeu cau ngat: luu giu lenh ngat
++ Thanh ghi so hoc: luu giu toan tu va ket qua cua phep toan
++ Thanh ghi chi muc: luu giu dia chi
++ Thanh ghi co: luu giu trang thai cua phep toan
+-> Dap an: E
+
+Cau 5: 30 MIPS = 30 trieu phep tinh tren mot giay
+Ty le su dung = 85%
+Su dung thuc te la 85% * 30 trieu phep tinh/s
+Chay 10 trieu dong lenh la 10 / (85% * 30)  = 1/(3*0.85) (s) = 100/255 = 0.39 (s)
+
+-> Dap an: C
+
+Cau 6: Bo nho dat nam giua bo xu ly va bo nho chinh la bo nho cache hay con goi la bo nho dem an
+-> Dap an: B
+
+Cau 7:  (cau 36 trong FE Handbook)
+-> Dap an D: Flash memory
+
+
+Cau 8: 
+-> Dap an A (cau 38 trong FE handbook)
+
+
+Cau 9: 
+Dung luong 1 ranh = 20000
+Toc do quay = 3200(vong/phut)  
+Do dai ban ghi = 1000
+He so khoi = 8 
+
+Toc do doc du lieu trong 1 phut = 20000 * 3200 = 64000000 (bytes)
+Dung luong 1 khoi = 8 * 1000 = 8000 (bytes)
+-> thoi gian doc 1 khoi = 8000/64000000 = 8/64000 (phut) = 8*60000 / 64000 (ms) = 30/4 (ms) = 7.5 ms
+-> Dap an E
+
+Cau 10: 
+Toc do quay = 3000 vong/ phut = 50 vong /s
+Quay 1 vong = 1/50 (s) = 20 ms
+Thoi gian tim kiem trong ranh trung binh = 1/2 * 20(ms) = 10 ms
+
+Trung binh tim kiem trung binh = thoi gian tim kiem trong ranh TB + thoi gian dinh vi dau tu TB
+= 10 + 8 = 18 ms 
+-> Khong co dap an nao dung, de bai sai :D
+
+Cau 11: Cau 48 FE Handbook
+A la bo xu ly, nhan du lieu vao va ra, tu bo nho chinh va dieu khien bo so hoc ALU. 
+
+-> Dap an: B
+
+
