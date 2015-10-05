@@ -1,0 +1,1 @@
+nghien cuu va tim hieu kien truc GPU cua NVIDIA
